@@ -22,8 +22,8 @@ use Soluble\Jasper\Proxy\Engine\JasperPrint;
 use Soluble\Jasper\Proxy\Export\SimplePdfExporterConfiguration;
 use Soluble\Jasper\Report;
 use Soluble\Jasper\Runner\BridgedReportRunner;
-use Zend\Diactoros\Response;
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\Response;
+use Laminas\Diactoros\Stream;
 
 class PDFExporter
 {
